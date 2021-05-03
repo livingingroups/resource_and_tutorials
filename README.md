@@ -102,9 +102,12 @@ LaTeX is great for complicated mausccripts (i.e. dissertations and books) and ma
 It can also be used to make slides for presenatations. 
 TeX documents can also be versioned controlled on GitHub. 
 Many journals also have LaTeX templates one may use for submission.
+
 #### [Overleaf](https://www.overleaf.com/project)
 Here is a [Youtube Video Tutorial](https://www.youtube.com/watch?v=5dnK2knSu0Q&t=2s) and [sample document](https://www.overleaf.com/project/5c3c4116de500c6cd5652f2f) for collaborative document preparation using Overleaf. 
 Overleaf also integrated with GitHub for document version control.
+
+- [phd thesis template](https://www.overleaf.com/project/5f4629293ce1bd0001fece17) (by kh)
 
 #### [ShareLaTeX](https://www.sharelatex.com/)
 This is a similar collaborative LaTeX document preparation. 
