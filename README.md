@@ -70,8 +70,6 @@ It is also a popular way of distributing software like for example *R* or *pytho
 
 ### R
 #### Intoduction to R Tutorials
-
-- [Teacup giraffes](https://tinystats.github.io/teacups-giraffes-and-statistics/): cute R intro
 #### Creating Packages in R
 ### Python
 ### [mcSTAN](https://mc-stan.org/)
