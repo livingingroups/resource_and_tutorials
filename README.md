@@ -127,6 +127,10 @@ This has merged with Overleaf
 Markdown is a lightweight markup language for created formatted text, whose source code is human readable.
 These are saved as `.md` or `.mdown` file extensions.
 This page you are currently reading now and any GitHub readme is written in Markdown.
+
+Markdown files behave specially on github in the sense github is aware of the format and markdown files will be displayed nicely formatted on github.
+Also, within any folder of a repository, github will display the content of a `README.md` file if present.
+
 1. [Tutorial in multiple languages](https://www.markdowntutorial.com/)
 2. [GitHub Markdown Tutorial](https://guides.github.com/features/mastering-markdown/)
 
