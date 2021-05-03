@@ -92,6 +92,12 @@ The most commonly used editor for working with R is [RStudio](https://www.rstudi
 - [stackoverflow](https://stackoverflow.com/questions/tagged/r): asking the global R community
 - [{reprex}](https://reprex.tidyverse.org/): a handy package to *"help you help me help you"* (how to effectively ask R related questions)
 
+#### Tutorials held at EAS
+
+- [Functional programming in R](https://k-hench.github.io/x_functional/functional.html): introduction into functional programming - the R superpower that prevents you from repeating yourself within R scripts.
+- [ggplot (I/II)](https://k-hench.github.io/x_ggplot/ggplot.html): introduction into the basic concepts of the *grammar of graphics* as implemented within the [{ggplot2}](https://ggplot2.tidyverse.org/) package
+- [ggplot (II/II)](https://k-hench.github.io/x_ggplot/ggplotII.html): arranging multiple ggplots, annotations and fancy hacks for ggplot
+
 ### Python
 ### [mcSTAN](https://mc-stan.org/)
 STAN is the most commonly used Hamiltonian MCMC proabailistic sampling engine for Bayesian inference. It can be implented in R, Python, Linux Shell, MatLab, Mathematica, Julia, Stata, and Scala.
