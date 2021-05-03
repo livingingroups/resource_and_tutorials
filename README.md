@@ -47,10 +47,9 @@ It is also a popular way of distributing software like for example *R* or *pytho
 ### Further Resources
 
 **git:**
-- the [*github* group](https://github.com/livingingroups) of the EAS
 - the original *git* [homepage](https://git-scm.com/) (with *git* [documentation](https://git-scm.com/book/en/v2))
 - *git* for [windows](https://gitforwindows.org/index.html) users
-- the *git* intro slides from the ODS workshop ([pt I]() (not available?) and [pt II](https://k-hench.github.io/git/gitII.html))
+- the *git* intro slides from the ODS workshop ([pt I]() (not available? can replace with [my own one (kh)](https://k-hench.github.io/git/git.html)) and [pt II](https://k-hench.github.io/git/gitII.html))
 - the *git* [discussion slides](https://github.com/livingingroups/ODS/blob/main/week.10/Version%20Control%20with%20git(Hub).pdf) from the ODS workshop
 - the [Atlassian terminal tutorial](https://www.atlassian.com/git) from the makers of Bitbucket
 - the [Software Carpentry Tutorial](https://swcarpentry.github.io/git-novice/)
@@ -59,15 +58,14 @@ It is also a popular way of distributing software like for example *R* or *pytho
 **github:**
 - [Github](https://github.com/): The most heavily used, and well known provider of Internet hosting for software development and version control using Git. You are on it now. Owned by Microsoft
 - [Bitbucket](https://bitbucket.org/): Another commonly used, open source code version control site.
+- the [*github* group](https://github.com/livingingroups) of the EAS
 
-### Git GUI Clients
-#### RStudio
-RStudio has a great built in Git Interface. [Tutorial here](https://happygitwithr.com/).
-#### [GitKraken](https://www.gitkraken.com/)
-As taught in the EoAS Workshop.
-#### GitHub Desktop
-#### [Sublime Merge](https://www.sublimemerge.com/)
-Another GUI that works Seamlessly with SublmeText, a great open source mutli (programming) language text editor
+**Git GUI Clients**
+- [RStudio](https://www.rstudio.com/): RStudio has a great built in Git Interface. [Tutorial here](https://happygitwithr.com/).
+- [GitKraken](https://www.gitkraken.com/): As taught in the EoAS Workshop.
+- [GitHub Desktop](https://desktop.github.com/): a GUI by the developers of github (only on windows or mac)
+- [Sublime Merge](https://www.sublimemerge.com/): Another GUI that works Seamlessly with SublmeText, a great open source mutli (programming) language text editor
+- [Visual Studio](https://visualstudio.microsoft.com/): an cross-platform integrated development environment (IDE, aka text editor on steroids). Heavily customizable and convenient environment that also manges git
 
 ## Programming Languages
 ### R
