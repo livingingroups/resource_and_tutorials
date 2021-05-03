@@ -102,7 +102,7 @@ Markdown is a lightweight markup language for created formatted text, whose sour
 These are saved as `.md` or `.mdown` file extensions.
 This page you are currently reading now and any GitHub readme is written in Markdown.
 1. [Tutorial in multiple languages](https://www.markdowntutorial.com/)
-2. [GitHub Markdown Tutorial[(https://guides.github.com/features/mastering-markdown/]
+2. [GitHub Markdown Tutorial](https://guides.github.com/features/mastering-markdown/)
 
 ### RMarkdown
 RMarkdown is another programming language that integrated R code with Markdown style writing to integrate text, Rcode, and R terminal output. 
