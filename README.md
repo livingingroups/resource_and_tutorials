@@ -44,7 +44,7 @@ It is also a popular way of distributing software like for example *R* or *pytho
 - **clone**: downloading a repository from a remote to a local computer
 - **fork**: creating a copy of someone elses repository on github
 
-### Further Resources
+### Resources
 
 **git:**
 - the original *git* [homepage](https://git-scm.com/) (with *git* [documentation](https://git-scm.com/book/en/v2))
@@ -69,6 +69,13 @@ It is also a popular way of distributing software like for example *R* or *pytho
 ## Programming Languages
 
 ### R
+
+R is likely the first programming language that most ecologists come across.
+It is widely used throughout biology for and specifically intended for statistical programming.
+The basic elements of R are distributed by the Comprehensive R Archive Network ([CRAN](https://cran.r-project.org/)) who also provide a huge catalog of additional *packages* that extend the base functionality of R.
+Appart from CRAN, there are also other sources of custom R packages such as [github](https://www.github.com) or [bioconductor](http://bioconductor.org/) that can provide very specific tools for particular biological analysis.
+The most commonly used editor for working with R is [RStudio](https://www.rstudio.com/), which is available for all operating systems.
+
 #### Intoduction to R Tutorials
 
 - [tinystats](https://tinystats.github.io/teacups-giraffes-and-statistics/): cute basic R intro
@@ -103,16 +110,18 @@ It can also be used to make slides for presenatations.
 TeX documents can also be versioned controlled on GitHub. 
 Many journals also have LaTeX templates one may use for submission.
 
+- [texstudio](https://www.texstudio.org/): a latex editor
+
 #### [Overleaf](https://www.overleaf.com/project)
 Here is a [Youtube Video Tutorial](https://www.youtube.com/watch?v=5dnK2knSu0Q&t=2s) and [sample document](https://www.overleaf.com/project/5c3c4116de500c6cd5652f2f) for collaborative document preparation using Overleaf. 
 Overleaf also integrated with GitHub for document version control.
 
-- [phd thesis template](https://www.overleaf.com/project/5f4629293ce1bd0001fece17) (by kh)
+- [phd thesis template](https://www.overleaf.com/project/5f4629293ce1bd0001fece17) by kh
 
 #### [ShareLaTeX](https://www.sharelatex.com/)
 This is a similar collaborative LaTeX document preparation. 
 The University has a free Pro account.
-This has merged with Overlead
+This has merged with Overleaf
 
 ### Markdown
 Markdown is a lightweight markup language for created formatted text, whose source code is human readable.
@@ -125,9 +134,18 @@ This page you are currently reading now and any GitHub readme is written in Mark
 RMarkdown is another programming language that integrated R code with Markdown style writing to integrate text, Rcode, and R terminal output. 
 It can be used to publish HTML (which can be publiched as websites), PDF, and MS word documents where code and the products of code are desirealbe to share. 
 It is great to share intermediate results, write living documents (can be integrated wit BibTeX for citations) where results in text can be changed if analysis changes or more data is added, or publish tutorials and websites.
+
+- [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+- [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+- [RMarkdown for Scientists](https://rmd4sci.njtierney.com/index.html)
+- [bookdown](https://bookdown.org/yihui/bookdown/): for more complex documents spanning multiple pages
+
 ### PanDoc
-Useful resource to translate document types (i.e. PDF to LaTeX to Word to Markdown to .txt)
+This is what powers the magic of markdown - the actual program that translates all sorts of document types (i.e. PDF to LaTeX to Word to Markdown to .txt).
+
 1. Brendan add LaTeX to Word example
+
+
 #### Ciation Mangers
 ##### Zotero
 ##### BibDesk
