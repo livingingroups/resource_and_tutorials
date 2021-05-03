@@ -70,7 +70,21 @@ It is also a popular way of distributing software like for example *R* or *pytho
 
 ### R
 #### Intoduction to R Tutorials
+
+- [tinystats](https://tinystats.github.io/teacups-giraffes-and-statistics/): cute basic R intro
+- [R for data science](https://r4ds.had.co.nz/): getting up to speed with the core elements of the {[tidyverse](https://www.tidyverse.org/)}
+- [What They Forgot to Teach You About R](https://rstats.wtf/): a workshop once you have the basics of R down
+- [Advanced R](https://adv-r.hadley.nz/): getting into the more detailed aspects of R
+
 #### Creating Packages in R
+- [R packages](https://r-pkgs.org/): concise intro into package creation
+- [{usethis}](https://usethis.r-lib.org/): incredibly helpful templating package
+
+#### Asking for help
+- EAS Slack channel #coding_group: first line of defense
+- [stackoverflow](https://stackoverflow.com/questions/tagged/r): asking the global R community
+- [{reprex}](https://reprex.tidyverse.org/): a handy package to *"help you help me help you"* (how to effectively ask R related questions)
+
 ### Python
 ### [mcSTAN](https://mc-stan.org/)
 STAN is the most commonly used Hamiltonian MCMC proabailistic sampling engine for Bayesian inference. It can be implented in R, Python, Linux Shell, MatLab, Mathematica, Julia, Stata, and Scala.
