@@ -15,16 +15,51 @@ We can also use hashes to prublish reproducible code with annonymized individual
 ### ReadMe files
 ### Best naming practices
 ## Version Control with Git
-Git is a software for tracking changes in sets of plain text files, usually used for coordinating work among programmers collaboratively developing source code. 
-In research it is largely used for Code Collaboration and Version Control.
-Git can be run in the terminal, but most researchers use a Git Interface GUI.:
-1. [Atlassian terminal tutorial](https://www.atlassian.com/git) from the makers of Bitbucket
-2. [Software Carpentry Tutorial](https://swcarpentry.github.io/git-novice/)
 
-### [Github](https://github.com/)
-The most heavily used, and well known provider of Internet hosting for software development and version control using Git. You are on it now. Owned by Microsoft
-### [Bitbucket](https://bitbucket.org/)
-Another commonly used, open source code version control site.
+**Basic Idea:** 
+*Git* is a tool for version control, which means it is a method to keep track of changes within a specified set of files on your computer.
+It provides the possibility to take *snapshots* during the development of a project that can be restored or referenced later.
+It therefor is a clean method to protocol and track changes of an entire project.
+
+Git is particularly tracking changes in sets of plain text files, usually used for coordinating work among programmers collaboratively developing source code. 
+In research it is largely used for Code Collaboration and Version Control.
+Git can be run in the terminal, but most researchers use a Git Interface GUI (s. below).
+
+*GitHub* is an online platform where repositories can be stored, managed and distributed.
+It provides convenient tools to work on a project collaboratively like eg. the option to have project related discussion within in the form of *issues*.
+It is also a popular way of distributing software like for example *R* or *python* packages.
+
+**Glossary:**
+
+- **git**: the actual program doing the version control
+- **github**: an online platform to manage and distribute version controlled projects that facilitates easy collaboration
+- **repository**: the specific project folder that is monitored (version controlled) by *git*
+- **add**: selecting modified files that for the next snapshot (aka. **staging**) 
+- **commit**: taking a snapshot of selected file modifications of the repository and archiving them
+- **remote**: an online instance of the repository (typically on *github*) that is connected to a the locally downloaded folder.
+- **push**: updating the *remote* with new changes from the local instance of the repository
+- **pull**: updating the local instance of the repository with new changes from the *remote*
+- **branch**: creating a parallel copy of the repository on which it is save to for example try experimental changes
+- **merge**: incorporate changes from a branch into the main (consensus branch) of the repository
+- **clone**: downloading a repository from a remote to a local computer
+- **fork**: creating a copy of someone elses repository on github
+
+### Further Resources
+
+**git:**
+- the [*github* group](https://github.com/livingingroups) of the EAS
+- the original *git* [homepage](https://git-scm.com/) (with *git* [documentation](https://git-scm.com/book/en/v2))
+- *git* for [windows](https://gitforwindows.org/index.html) users
+- the *git* intro slides from the ODS workshop ([pt I]() (not available?) and [pt II](https://k-hench.github.io/git/gitII.html))
+- the *git* [discussion slides](https://github.com/livingingroups/ODS/blob/main/week.10/Version%20Control%20with%20git(Hub).pdf) from the ODS workshop
+- the [Atlassian terminal tutorial](https://www.atlassian.com/git) from the makers of Bitbucket
+- the [Software Carpentry Tutorial](https://swcarpentry.github.io/git-novice/)
+- ...
+
+**github:**
+- [Github](https://github.com/): The most heavily used, and well known provider of Internet hosting for software development and version control using Git. You are on it now. Owned by Microsoft
+- [Bitbucket](https://bitbucket.org/): Another commonly used, open source code version control site.
+
 ### Git GUI Clients
 #### RStudio
 RStudio has a great built in Git Interface. [Tutorial here](https://happygitwithr.com/).
