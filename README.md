@@ -71,7 +71,7 @@ It is also a popular way of distributing software like for example *R* or *pytho
 ### R
 
 R is likely the first programming language that most ecologists come across.
-It is widely used throughout biology for and specifically intended for statistical programming.
+It is widely used throughout biology and specifically intended for statistical programming.
 The basic elements of R are distributed by the Comprehensive R Archive Network ([CRAN](https://cran.r-project.org/)) who also provide a huge catalog of additional *packages* that extend the base functionality of R.
 Appart from CRAN, there are also other sources of custom R packages such as [github](https://www.github.com) or [bioconductor](http://bioconductor.org/) that can provide very specific tools for particular biological analysis.
 The most commonly used editor for working with R is [RStudio](https://www.rstudio.com/), which is available for all operating systems.
@@ -128,7 +128,7 @@ Markdown is a lightweight markup language for created formatted text, whose sour
 These are saved as `.md` or `.mdown` file extensions.
 This page you are currently reading now and any GitHub readme is written in Markdown.
 
-Markdown files behave specially on github in the sense github is aware of the format and markdown files will be displayed nicely formatted on github.
+Markdown files behave specially on github in the sense github is aware of the format. Markdown files will thus be displayed nicely formatted on github.
 Also, within any folder of a repository, github will display the content of a `README.md` file if present.
 
 1. [Tutorial in multiple languages](https://www.markdowntutorial.com/)
