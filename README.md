@@ -4,8 +4,8 @@ We can break this into sub pages as it grows.
 ## Data Management
 ### Exiftool
 
-- [{exiftoolr}](https://github.com/JoshOBrien/exiftoolr): R package to call exiftool from within R (also works on windows)
- 
+- [{exiftoolr}](https://github.com/JoshOBrien/exiftoolr): R package to call exiftool from within R (also works on windows) ([quick demo](https://gist.github.com/k-hench/7e8d8e1ee23ab4b4dc293acd08305893#file-r_exiftool-r))
+
 ### Hashing
 SHA-1 (Secure Hash Algorithm 1) is a cryptographic has function that takes an input and produces a unique hash value (often a 40 digit hexadecimal number) designed by the NSA. An object creates a new has, but that hash cannot be used to identify the original object (it is encrypted). It is relevant to us as reaserchers for 2 reasons.
 1. Files (images, mp3, csvs, .doc, pdf) can have a unique hash based on the , allowing us to inventory files. 
