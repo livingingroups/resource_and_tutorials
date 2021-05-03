@@ -57,6 +57,7 @@ It is also a popular way of distributing software like for example *R* or *pytho
 **github:**
 - [Github](https://github.com/): The most heavily used, and well known provider of Internet hosting for software development and version control using Git. You are on it now. Owned by Microsoft
 - [Bitbucket](https://bitbucket.org/): Another commonly used, open source code version control site.
+- [zenodo](https://zenodo.org/): the place to store your github repositories for posterity (and create a doi) 
 - the [*github* group](https://github.com/livingingroups) of the EAS
 
 **Git GUI Clients:**
