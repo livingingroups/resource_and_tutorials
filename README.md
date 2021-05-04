@@ -214,7 +214,18 @@ It is great to share intermediate results, write living documents (can be integr
 - [bookdown](https://bookdown.org/yihui/bookdown/): for more complex documents spanning multiple pages
 
 ### PanDoc
+
 This is what powers the magic of markdown - the actual program that translates all sorts of document types (i.e. PDF to LaTeX to Word to Markdown to .txt).
+
+You can for example convert this `.md` file to pdf or `html` simply by running:
+(Provided, you have LaTeX installed on your computer.)
+
+```sh
+# md -> pdf
+pandoc README.md -s -o readme.pdf
+# md -> html
+pandoc README.md -s -o readme.htm
+```
 
 - [Official Documentation](https://pandoc.org/getting-started.html)
 
