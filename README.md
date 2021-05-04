@@ -4,11 +4,15 @@ We can break this into sub pages as it grows.
 ## Data Management
 ### Open Data Kit
 #### ODK collect
+
+- [Official docs](https://docs.getodk.org/getting-started/)
+
 #### Kobo collect
 Open source version of ODK, forms can be version controlled. Useful tutorial [here](https://test2.biogeo.ucdavis.edu/guides/kobo.html)
 
 ### Exiftool
 
+- [exif tool tutorial series](https://www.weareavp.com/exiftool-tutorial-series/)
 - [{exiftoolr}](https://github.com/JoshOBrien/exiftoolr): R package to call exiftool from within R (also works on windows) ([quick demo](https://gist.github.com/k-hench/7e8d8e1ee23ab4b4dc293acd08305893#file-r_exiftool-r))
 
 ### Hashing
@@ -108,6 +112,9 @@ The most commonly used editor for working with R is [RStudio](https://www.rstudi
 - [ggplot (II/II)](https://k-hench.github.io/x_ggplot/ggplotII.html): arranging multiple ggplots, annotations and fancy hacks for ggplot
 
 ### Python
+
+- [Tutorial](https://www.codecademy.com/learn/learn-python) by *codecademy*
+
 ### [mcSTAN](https://mc-stan.org/)
 STAN is the most commonly used Hamiltonian MCMC proabailistic sampling engine for Bayesian inference. It can be implented in R, Python, Linux Shell, MatLab, Mathematica, Julia, Stata, and Scala.
 For R users, there are several "convenience" wrappers that can fir simple hierarchical models (and more) in stan.
@@ -160,6 +167,7 @@ It can also be used to make slides for presenatations.
 TeX documents can also be versioned controlled on GitHub. 
 Many journals also have LaTeX templates one may use for submission.
 
+- [Intro Video](https://www.youtube.com/watch?v=xYzg-gfx6dQ)
 - [texstudio](https://www.texstudio.org/): a latex editor
 
 #### [Overleaf](https://www.overleaf.com/project)
@@ -196,6 +204,8 @@ It is great to share intermediate results, write living documents (can be integr
 
 ### PanDoc
 This is what powers the magic of markdown - the actual program that translates all sorts of document types (i.e. PDF to LaTeX to Word to Markdown to .txt).
+
+- [Official Documentation](https://pandoc.org/getting-started.html)
 
 1. Brendan add LaTeX to Word example
 
