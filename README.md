@@ -142,7 +142,8 @@ You can, however, install [*git for windows*](https://gitforwindows.org/index.ht
 All of those options should bring you to a black or white void (or even a colorful one), where a `$` prompt is waiting for your input.
 
 **First commands**:
-Here just the very basic *bash* commands and tips:
+
+Here just a few very basic *bash* commands and tips:
 
 - `pwd` is short for "print working directory" and reports the location on your file system where the command line is currently operating (this tells you *where you are*)
 - `ls` will print the content (the files & folders) of the current directory (*what is around you*)
