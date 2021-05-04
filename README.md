@@ -135,7 +135,7 @@ Unfortunately, the exact behavior (the language) that your shell uses is *depend
 You can, however, install [*git for windows*](https://gitforwindows.org/index.html), which will also come with a basic *bash* functionality on *Windows*.
 
 **Access**:
-- On *MacOS* and *Linux* find and open the program called *Terminal* (eg. using the basic search function of eiter OS).
+- On *MacOS* and *Linux* find and open the program called *Terminal* (eg. using the basic search function of either OS).
 - On *Windows* (with [*git for windows*](https://gitforwindows.org/index.html) installed), right-click on a folder or on the desktop and select *"Git Bash Here"*.
 - Using [RStudio](https://www.rstudio.com/) (if *Windows*: with [*git for windows*](https://gitforwindows.org/index.html) installed): look for the *"Terminal"* tab in one of the four main panes.
 
@@ -213,6 +213,11 @@ This is what powers the magic of markdown - the actual program that translates a
 
 #### Ciation Mangers
 ##### Zotero
+
+- [Zotero](https://www.zotero.org/): the actual program 
+- [ZotFile](http://zotfile.com/): a zotero extension that allows to sync pdf annotations across devices (eg. tablet <=> laptop) ([github](https://github.com/jlegewie/zotfile))
+- [How To](https://eighty-twenty.org/2018/06/13/mendeley-encrypted-db) decrypt your encrypted Mendeley data base for import with zotero (migrating all notes, annotations, links to pdfs and folder structures)
+
 ##### BibDesk
 ##### JabRef
 
