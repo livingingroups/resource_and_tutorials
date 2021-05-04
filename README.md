@@ -114,7 +114,42 @@ For R users, there are several "convenience" wrappers that can fir simple hierar
 1. [rethinking pacakage](https://github.com/rmcelreath/rethinking) and Richard McElreaths accompanying textbook.
 2. [brms](https://github.com/paul-buerkner/brms) fits STAN generlized linear regressions using lme4 syntax
 3. [rstanarm](https://github.com/stan-dev/rstanarm)
+
 ### Bash aka Linux Terminal
+
+**Background**:
+The *Terminal* is the program that gives you access to your systems [*shell*](https://en.wikipedia.org/wiki/Shell_%28computing%29). It is that *black box* that you might have seen on the Matrix or any news-piece about hackers - it is also very useful for data science.
+
+![matrix](https://i.imgur.com/aN8WbJu.gif)
+
+In short, the shell allows you to interface with your computer by typing in commands rather than clicking on icons or graphical user interface programs (GUIs) - it might be a little surprising, but this *can* actually be a huge advantage.
+
+Unfortunately, the exact behavior (the language) that your shell uses is *depending on your operating system*. The general rule is: *Windows* is different than everything else, the *unix*-based systems (*MacOS* and *Linux*) are mostly similar and run [*bash*](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) as shell language.
+You can, however, install [*git for windows*](https://gitforwindows.org/index.html), which will also come with a basic *bash* functionality on *Windows*.
+
+**Access**:
+- On *MacOS* and *Linux* find and open the program called *Terminal* (eg. using the basic search function of eiter OS).
+- On *Windows* (with [*git for windows*](https://gitforwindows.org/index.html) installed), right-click on a folder or on the desktop and select *"Git Bash Here"*.
+- Using [RStudio](https://www.rstudio.com/) (if *Windows*: with [*git for windows*](https://gitforwindows.org/index.html) installed): look for the *"Terminal"* tab in one of the four main panes.
+
+All of those options should bring you to a black or white void (or even a colorful one), where a `$` prompt is waiting for your input.
+
+**First commands**:
+Here just the very basic *bash* commands and tips:
+
+- `pwd` is short for "print working directory" and reports the location on your file system where the command line is currently operating (this tells you *where you are*)
+- `ls` will print the content (the files & folders) of the current directory (*what is around you*)
+- `cd` is short for "change directory" and allows you to change your working directory (*move around*)
+- `echo` allows you to print some text as output (it allows you to *speak*)
+- `./` is the current directory
+- `..` is the *parent* directory (the directory which contains the current directory)
+
+One thing that makes your life easier when using the command line is the `<tab>` key on your keyboard. If you don't know what it does, *do try it*. It's basically an auto-complete for your input.
+
+**Tutorials**
+- [quick intro](https://k-hench.github.io/getting_stuff_done/bash.html)
+- [popper tutorial](https://www.learnshell.org/)
+- [bash one-liners](https://github.com/fcenobi/Bash-Oneliner#grep)
 
 ## Manuscript Preparation
 ### LaTeX
