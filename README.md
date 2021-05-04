@@ -225,7 +225,7 @@ pandoc README.md -s -o readme.pdf
 # md -> html
 pandoc README.md -s -o readme.htm
 ```
-(Provided, you have LaTeX installed on your computer.)
+(Conversion to `pdf` works only if you have LaTeX installed on your computer.)
 
 - [Official Documentation](https://pandoc.org/getting-started.html)
 
