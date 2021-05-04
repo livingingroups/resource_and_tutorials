@@ -5,7 +5,7 @@ We can break this into sub pages as it grows.
 
 ### A cautionary note on Excel
 
-If you do use a spreadsheet software like Excel (or Open/LibreOffice), **please be aware of the *Column type* settings** when importing plain-text spreadsheet (eg. `.csv` or `.tsv`).
+If you do use a spreadsheet software like Excel (or Open/LibreOffice), **please be aware of the *Column type* settings** when importing plain-text spreadsheets (eg. `.csv` or `.tsv`).
 
 ![](https://i.imgur.com/C75CZN0.png)
 
