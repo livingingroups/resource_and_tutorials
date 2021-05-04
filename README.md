@@ -2,6 +2,11 @@
 Below is a compiled list of various resources and tutorials, both internal and external, for tools, programming tricks, and tutorials related to science reform, reproducibiluty, and open data science in the department.
 We can break this into sub pages as it grows.
 ## Data Management
+### Open Data Kit
+#### ODK collect
+#### Kobo collect
+Open source version of ODK, forms can be version controlled. Useful tutorial [here](https://test2.biogeo.ucdavis.edu/guides/kobo.html)
+
 ### Exiftool
 ### Hashing
 SHA-1 (Secure Hash Algorithm 1) is a cryptographic has function that takes an input and produces a unique hash value (often a 40 digit hexadecimal number) designed by the NSA. An object creates a new has, but that hash cannot be used to identify the original object (it is encrypted). It is relevant to us as reaserchers for 2 reasons.
