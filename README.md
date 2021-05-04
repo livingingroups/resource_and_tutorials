@@ -223,7 +223,7 @@ You can for example convert this `.md` file to `pdf` or `html` simply by running
 # md -> pdf
 pandoc README.md -s -o readme.pdf
 # md -> html
-pandoc README.md -s -o readme.htm
+pandoc README.md -s -o readme.html
 ```
 (Conversion to `pdf` works only if you have LaTeX installed on your computer.)
 
