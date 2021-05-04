@@ -155,7 +155,8 @@ One thing that makes your life easier when using the command line is the `<tab>`
 
 **Tutorials**
 - [quick intro](https://k-hench.github.io/getting_stuff_done/bash.html)
-- [popper tutorial](https://www.learnshell.org/)
+- [popper tutorial](https://www.learnshell.org/) (by *learnshell*)
+- [more tutorial](https://www.javatpoint.com/bash) (by *javatpoint*)
 - [bash one-liners](https://github.com/fcenobi/Bash-Oneliner#grep)
 
 ## Manuscript Preparation
