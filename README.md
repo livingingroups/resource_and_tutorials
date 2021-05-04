@@ -2,6 +2,15 @@
 Below is a compiled list of various resources and tutorials, both internal and external, for tools, programming tricks, and tutorials related to science reform, reproducibiluty, and open data science in the department.
 We can break this into sub pages as it grows.
 ## Data Management
+
+### A cautionary note on Excel
+
+If you do use a spreadsheet software like Excel (or Open/LibreOffice), **please be aware of the *Column type* settings** when importing plain-text spreadsheet (eg. `.csv` or `.tsv`).
+
+![](https://i.imgur.com/C75CZN0.png)
+
+**Make sure to actually select the appropriate column type**, because otherwise your program will overwrite the data with what it **thinks** you want them to be. This can *easily go unnoticed*, be *irreversible* and has actually lead to [widespread issues in the scientific literature](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7)!
+
 ### Open Data Kit
 #### ODK collect
 
