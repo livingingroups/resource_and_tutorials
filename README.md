@@ -217,7 +217,7 @@ It is great to share intermediate results, write living documents (can be integr
 
 This is what powers the magic of markdown - the actual program that translates all sorts of document types (i.e. PDF to LaTeX to Word to Markdown to .txt).
 
-You can for example convert this `.md` file to pdf or `html` simply by running:
+You can for example convert this `.md` file to `pdf` or `html` simply by running:
 (Provided, you have LaTeX installed on your computer.)
 
 ```sh
