@@ -2,6 +2,11 @@
 Below is a compiled list of various resources and tutorials, both internal and external, for tools, programming tricks, and tutorials related to science reform, reproducibiluty, and open data science in the department.
 We can break this into sub pages as it grows.
 ## Data Management
+### Open Data Kit
+#### ODK collect
+#### Kobo collect
+Open source version of ODK, forms can be version controlled. Useful tutorial [here](https://test2.biogeo.ucdavis.edu/guides/kobo.html)
+
 ### Exiftool
 
 - [{exiftoolr}](https://github.com/JoshOBrien/exiftoolr): R package to call exiftool from within R (also works on windows) ([quick demo](https://gist.github.com/k-hench/7e8d8e1ee23ab4b4dc293acd08305893#file-r_exiftool-r))
