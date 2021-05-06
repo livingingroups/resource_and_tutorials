@@ -2,12 +2,28 @@
 Below is a compiled list of various resources and tutorials, both internal and external, for tools, programming tricks, and tutorials related to science reform, reproducibiluty, and open data science in the department.
 We can break this into sub pages as it grows.
 ## Data Management
+
+### A cautionary note on Excel
+
+If you do use a spreadsheet software like Excel (or Open/LibreOffice), **please be aware of the *Column type* settings** when importing plain-text spreadsheets (eg. `.csv` or `.tsv`).
+
+![](https://i.imgur.com/C75CZN0.png)
+
+**Make sure to actually select the appropriate column type**, because otherwise your program will overwrite the data with what it **thinks** you want them to be. This can *easily go unnoticed*, be *irreversible* and has actually lead to [widespread issues in the scientific literature](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7)!
+
 ### Open Data Kit
 #### ODK collect
+
+- [Official docs](https://docs.getodk.org/getting-started/)
+
 #### Kobo collect
 Open source version of ODK, forms can be version controlled. Useful tutorial [here](https://test2.biogeo.ucdavis.edu/guides/kobo.html)
 
 ### Exiftool
+
+- [exif tool tutorial series](https://www.weareavp.com/exiftool-tutorial-series/)
+- [{exiftoolr}](https://github.com/JoshOBrien/exiftoolr): R package to call exiftool from within R (also works on windows) ([quick demo](https://gist.github.com/k-hench/7e8d8e1ee23ab4b4dc293acd08305893#file-r_exiftool-r))
+
 ### Hashing
 Download .RMD tutorial [here](https://github.com/livingingroups/hashing_digest_tutorial)
 ### ReadMe files
@@ -55,6 +71,7 @@ It is also a popular way of distributing software like for example *R* or *pytho
 **github:**
 - [Github](https://github.com/): The most heavily used, and well known provider of Internet hosting for software development and version control using Git. You are on it now. Owned by Microsoft
 - [Bitbucket](https://bitbucket.org/): Another commonly used, open source code version control site.
+- [zenodo](https://zenodo.org/): the place to store your github repositories for posterity (and create a doi) 
 - the [*github* group](https://github.com/livingingroups) of the EAS
 
 **Git GUI Clients:**
@@ -97,13 +114,53 @@ The most commonly used editor for working with R is [RStudio](https://www.rstudi
 - [ggplot (II/II)](https://k-hench.github.io/x_ggplot/ggplotII.html): arranging multiple ggplots, annotations and fancy hacks for ggplot
 
 ### Python
+
+- [Tutorial](https://www.codecademy.com/learn/learn-python) by *codecademy*
+
 ### [mcSTAN](https://mc-stan.org/)
 STAN is the most commonly used Hamiltonian MCMC proabailistic sampling engine for Bayesian inference. It can be implented in R, Python, Linux Shell, MatLab, Mathematica, Julia, Stata, and Scala.
 For R users, there are several "convenience" wrappers that can fir simple hierarchical models (and more) in stan.
 1. [rethinking pacakage](https://github.com/rmcelreath/rethinking) and Richard McElreaths accompanying textbook.
 2. [brms](https://github.com/paul-buerkner/brms) fits STAN generlized linear regressions using lme4 syntax
 3. [rstanarm](https://github.com/stan-dev/rstanarm)
+
 ### Bash aka Linux Terminal
+
+**Background**:
+The *Terminal* is the program that gives you access to your systems [*shell*](https://en.wikipedia.org/wiki/Shell_%28computing%29). It is that *black box* that you might have seen on the Matrix or any news-piece about hackers - it is also very useful for data science.
+
+![matrix](https://i.imgur.com/aN8WbJu.gif)
+
+In short, the shell allows you to interface with your computer by typing in commands rather than clicking on icons or graphical user interface programs (GUIs) - it might be a little surprising, but this *can* actually be a huge advantage.
+
+Unfortunately, the exact behavior (the language) that your shell uses is *depending on your operating system*. The general rule is: *Windows* is different than everything else, the *unix*-based systems (*MacOS* and *Linux*) are mostly similar and run [*bash*](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) as shell language.
+You can, however, install [*git for windows*](https://gitforwindows.org/index.html), which will also come with a basic *bash* functionality on *Windows*.
+
+**Access**:
+- On *MacOS* and *Linux* find and open the program called *Terminal* (eg. using the basic search function of either OS).
+- On *Windows* (with [*git for windows*](https://gitforwindows.org/index.html) installed), right-click on a folder or on the desktop and select *"Git Bash Here"*.
+- Using [RStudio](https://www.rstudio.com/) (if *Windows*: with [*git for windows*](https://gitforwindows.org/index.html) installed): look for the *"Terminal"* tab in one of the four main panes.
+
+All of those options should bring you to a black or white void (or even a colorful one), where a `$` prompt is waiting for your input.
+
+**First commands**:
+
+Here just a few very basic *bash* commands and tips:
+
+- `pwd` is short for "print working directory" and reports the location on your file system where the command line is currently operating (this tells you *where you are*)
+- `ls` will print the content (the files & folders) of the current directory (*what is around you*)
+- `cd` is short for "change directory" and allows you to change your working directory (*move around*)
+- `echo` allows you to print some text as output (it allows you to *speak*)
+- `./` is the current directory
+- `..` is the *parent* directory (the directory which contains the current directory)
+
+One thing that makes your life easier when using the command line is the `<tab>` key on your keyboard. If you don't know what it does, *do try it*. It's basically an auto-complete for your input.
+
+**Tutorials**
+- [quick intro](https://k-hench.github.io/getting_stuff_done/bash.html)
+- [popper tutorial](https://www.learnshell.org/) (by *learnshell*)
+- [more tutorial](https://www.javatpoint.com/bash) (by *javatpoint*)
+- [bash one-liners](https://github.com/fcenobi/Bash-Oneliner#grep)
 
 ## Manuscript Preparation
 ### LaTeX
@@ -114,6 +171,7 @@ It can also be used to make slides for presenatations.
 TeX documents can also be versioned controlled on GitHub. 
 Many journals also have LaTeX templates one may use for submission.
 
+- [Intro Video](https://www.youtube.com/watch?v=xYzg-gfx6dQ)
 - [texstudio](https://www.texstudio.org/): a latex editor
 
 #### [Overleaf](https://www.overleaf.com/project)
@@ -149,13 +207,31 @@ It is great to share intermediate results, write living documents (can be integr
 - [bookdown](https://bookdown.org/yihui/bookdown/): for more complex documents spanning multiple pages
 
 ### PanDoc
+
 This is what powers the magic of markdown - the actual program that translates all sorts of document types (i.e. PDF to LaTeX to Word to Markdown to .txt).
+
+You can for example convert this `.md` file to `pdf` or `html` simply by running:
+
+```sh
+# md -> pdf
+pandoc README.md -s -o readme.pdf
+# md -> html
+pandoc README.md -s -o readme.html
+```
+(Conversion to `pdf` works only if you have LaTeX installed on your computer.)
+
+- [Official Documentation](https://pandoc.org/getting-started.html)
 
 1. Brendan add LaTeX to Word example
 
 
 #### Ciation Mangers
 ##### Zotero
+
+- [Zotero](https://www.zotero.org/): the actual program 
+- [ZotFile](http://zotfile.com/): a zotero extension that allows to sync pdf annotations across devices (eg. tablet <=> laptop) ([github](https://github.com/jlegewie/zotfile))
+- [How To](https://eighty-twenty.org/2018/06/13/mendeley-encrypted-db) decrypt your encrypted Mendeley data base for import with zotero (migrating all notes, annotations, links to pdfs and folder structures)
+
 ##### BibDesk
 ##### JabRef
 
