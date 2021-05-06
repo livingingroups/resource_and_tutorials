@@ -9,14 +9,7 @@ Open source version of ODK, forms can be version controlled. Useful tutorial [he
 
 ### Exiftool
 ### Hashing
-SHA-1 (Secure Hash Algorithm 1) is a cryptographic has function that takes an input and produces a unique hash value (often a 40 digit hexadecimal number) designed by the NSA. An object creates a new has, but that hash cannot be used to identify the original object (it is encrypted). It is relevant to us as reaserchers for 2 reasons.
-1. Files (images, mp3, csvs, .doc, pdf) can have a unique hash based on the , allowing us to inventory files. 
-This hash is based on the underlying code, unique to each file, and does not change in case the file name changes.
-This allows us to inventory files, and ensure there are not duplicates or lost cases, before we performa analysis. 
-This is particularly useful when there are multiple people creating multiple copies of data in the field, and when data ends up going out to collaborators (who are not as tidy as us).
-2. Unique, encrypted hashes can be created for unique individuals, field sites, samples, speicies, integer, or any text object. 
-This is useful as we can append hash metadata to different files, to build relational databases that are resistant to transcription errors.
-We can also use hashes to prublish reproducible code with annonymized individual or location information if there are privacy or conservation converns
+Download .RMD tutorial [here](https://github.com/livingingroups/hashing_digest_tutorial)
 ### ReadMe files
 ### Best naming practices
 ## Version Control with Git
