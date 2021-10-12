@@ -2,6 +2,8 @@
 Below is a compiled list of various resources and tutorials, both internal and external, for tools, programming tricks, and tutorials related to science reform, reproducibiluty, and open data science in the department.
 We can break this into sub pages as it grows.
 ## Data Management
+<details>
+  <summary>Click to expand!</summary>
 
 ### A cautionary note on Excel
 
@@ -28,7 +30,13 @@ Open source version of ODK, forms can be version controlled. Useful tutorial [he
 Download .RMD tutorial [here](https://github.com/livingingroups/hashing_digest_tutorial)
 ### ReadMe files
 ### Best naming practices
+  
+</details>
+
 ## Version Control with Git
+
+<details>
+  <summary>Click to expand!</summary>
 
 **Basic Idea:** 
 *Git* is a tool for version control, which means it is a method to keep track of changes within a specified set of files on your computer.
@@ -80,11 +88,17 @@ It is also a popular way of distributing software like for example *R* or *pytho
 - [GitHub Desktop](https://desktop.github.com/): a GUI by the developers of github (only on windows or mac)
 - [Sublime Merge](https://www.sublimemerge.com/): Another GUI that works Seamlessly with SublmeText, a great open source mutli (programming) language text editor
 - [Visual Studio](https://visualstudio.microsoft.com/): an cross-platform integrated development environment (IDE, aka. text editor on steroids). Heavily customizable and convenient environment that also manges git
+  
+</details>
 
 ## Programming Languages
-
+<details>
+  <summary>Click to expand!</summary>
+  
 ### R
-
+<details>
+  <summary>Click to expand!</summary>
+  
 R is likely the first programming language that most ecologists come across.
 It is widely used throughout biology and specifically intended for statistical programming.
 The basic elements of R are distributed by the Comprehensive R Archive Network ([CRAN](https://cran.r-project.org/)) who also provide a huge catalog of additional *packages* that extend the base functionality of R.
@@ -113,8 +127,10 @@ The most commonly used editor for working with R is [RStudio](https://www.rstudi
 - [ggplot (I/II)](https://k-hench.github.io/x_ggplot/ggplot.html): introduction into the basic concepts of the *grammar of graphics* as implemented within the [{ggplot2}](https://ggplot2.tidyverse.org/) package
 - [ggplot (II/II)](https://k-hench.github.io/x_ggplot/ggplotII.html): arranging multiple ggplots, annotations and fancy hacks for ggplot
 
+  </details>
+  
 ### Python
-
+  
 - [Tutorial](https://www.codecademy.com/learn/learn-python) by *codecademy*
 
 ### [mcSTAN](https://mc-stan.org/)
@@ -126,6 +142,9 @@ For R users, there are several "convenience" wrappers that can fir simple hierar
 
 ### Bash aka Linux Terminal
 
+<details>
+<summary>Click to expand!</summary>
+    
 **Background**:
 The *Terminal* is the program that gives you access to your systems [*shell*](https://en.wikipedia.org/wiki/Shell_%28computing%29). It is that *black box* that you might have seen on the Matrix or any news-piece about hackers - it is also very useful for data science.
 
@@ -161,9 +180,18 @@ One thing that makes your life easier when using the command line is the `<tab>`
 - [popper tutorial](https://www.learnshell.org/) (by *learnshell*)
 - [more tutorial](https://www.javatpoint.com/bash) (by *javatpoint*)
 - [bash one-liners](https://github.com/fcenobi/Bash-Oneliner#grep)
+  
+</details>
+  
+</details>
 
-## Manuscript Preparation
+## Manuscript Preparation  
+<details>
+<summary>Click to expand!</summary>
+  
 ### LaTeX
+
+  
 LaTeX is a plain text document preapartion editor that uses the TeX language. 
 It typsets plain text files. It integrates with BibTeX, an open source citation manager service. 
 LaTeX is great for complicated mausccripts (i.e. dissertations and books) and manuscripts with alot of mathematical notation. 
@@ -173,6 +201,7 @@ Many journals also have LaTeX templates one may use for submission.
 
 - [Intro Video](https://www.youtube.com/watch?v=xYzg-gfx6dQ)
 - [texstudio](https://www.texstudio.org/): a latex editor
+
 
 #### [Overleaf](https://www.overleaf.com/project)
 Here is a [Youtube Video Tutorial](https://www.youtube.com/watch?v=5dnK2knSu0Q&t=2s) and [sample document](https://www.overleaf.com/project/5c3c4116de500c6cd5652f2f) for collaborative document preparation using Overleaf. 
@@ -184,8 +213,9 @@ Overleaf also integrated with GitHub for document version control.
 This is a similar collaborative LaTeX document preparation. 
 The University has a free Pro account.
 This has merged with Overleaf
-
+  
 ### Markdown
+   
 Markdown is a lightweight markup language for created formatted text, whose source code is human readable.
 These are saved as `.md` or `.mdown` file extensions.
 This page you are currently reading now and any GitHub readme is written in Markdown.
@@ -195,8 +225,10 @@ Also, within any folder of a repository, github will display the content of a `R
 
 1. [Tutorial in multiple languages](https://www.markdowntutorial.com/)
 2. [GitHub Markdown Tutorial](https://guides.github.com/features/mastering-markdown/)
-
+    
+  
 ### RMarkdown
+     
 RMarkdown is another programming language that integrated R code with Markdown style writing to integrate text, Rcode, and R terminal output. 
 It can be used to publish HTML (which can be publiched as websites), PDF, and MS word documents where code and the products of code are desirealbe to share. 
 It is great to share intermediate results, write living documents (can be integrated wit BibTeX for citations) where results in text can be changed if analysis changes or more data is added, or publish tutorials and websites.
@@ -205,9 +237,11 @@ It is great to share intermediate results, write living documents (can be integr
 - [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
 - [RMarkdown for Scientists](https://rmd4sci.njtierney.com/index.html)
 - [bookdown](https://bookdown.org/yihui/bookdown/): for more complex documents spanning multiple pages
+  
 
+  
 ### PanDoc
-
+   
 This is what powers the magic of markdown - the actual program that translates all sorts of document types (i.e. PDF to LaTeX to Word to Markdown to .txt).
 
 You can for example convert this `.md` file to `pdf` or `html` simply by running:
@@ -223,8 +257,8 @@ pandoc README.md -s -o readme.html
 - [Official Documentation](https://pandoc.org/getting-started.html)
 
 1. Brendan add LaTeX to Word example
-
-
+   
+  
 #### Ciation Mangers
 ##### Zotero
 
@@ -235,3 +269,4 @@ pandoc README.md -s -o readme.html
 ##### BibDesk
 ##### JabRef
 
+<\details>
